@@ -11,7 +11,7 @@ export default function Header() {
           <h1>🎬 <em>Film & Actors</em> Vocabulary Arcade</h1>
           <div className="subhead">Types of Films · Home vs Cinema · Qualities of Actors · Becoming an Actor</div>
         </div>
-        <div className="header-right">
+        {/* <div className="header-right">
           <Link
             href="/admin"
             className="btn btn-outline btn-sm"
@@ -20,7 +20,7 @@ export default function Header() {
             <i className="fas fa-cog" style={{ marginRight: '6px' }}></i>
             Quản trị CMS
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );
